@@ -1,4 +1,5 @@
-# concurrent-list
+# concurrent list [![Circle CI](https://circleci.com/gh/streamrail/concurrent-list.svg?style=svg)](https://circleci.com/gh/streamrail/concurrent-list)
+
 
 A concurrent safe slice of type string, the list doesn't allow duplicates.
 Items within the list are sorted, so don't expect to find your Nth item to be at index N-1, see example below.
